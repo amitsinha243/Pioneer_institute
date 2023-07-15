@@ -3,7 +3,7 @@
 <head>
     <title>Pioneer Institute</title>
     <link rel="icon" href="static/images/pioneer.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="static/css/style.css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -24,13 +24,13 @@
                     <a class="nav-link" href="templates/wbbse.html">WBBSE Courses</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cbse.html">CBSE/ICSE Courses</a>
+                    <a class="nav-link" href="templates/cbse.html">CBSE/ICSE Courses</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="members.html">Faculty Members</a>
+                    <a class="nav-link" href="templates/members.html">Faculty Members</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="templates/contact.html">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-md-6">
                 <p class="promo-title">Pioneer Institute</p>
-                <a href="wbbse.html"><img src="static/images/play.png" class="play-btn">Check Out Our Courses</a>
+                <a href="templates/wbbse.html"><img src="static/images/play.png" class="play-btn">Check Out Our Courses</a>
             </div>
             <div class="col-md-6 text-center">
                 <img src="static/images/pioneer.png" class="img-fluid">
@@ -62,17 +62,17 @@
         <h1 class="title">Why choose Pioneer?</h1>
         <div class="row text-center">
             <div class="col-md-4 services">
-                <img src="../static/images/images1.jpeg" class="service-img">
+                <img src="static/images/images1.jpeg" class="service-img">
                 <h4>Personalised Learning Programs</h4>
                 <p align="justify">Customised learning courses provided for each student, weekly mock test.</p>
             </div>
             <div class="col-md-4 services">
-                <img src="images/images2.png" class="service-img">
+                <img src="static/images/images2.png" class="service-img">
                 <h4>Specialized Faculty Members</h4>
                 <p align="justify">Faculty members are experienced with latest courses and examination.</p>
             </div>
             <div class="col-md-4 services">
-                <img src="images/images3.png" class="service-img">
+                <img src="static/images/images3.png" class="service-img">
                 <h4>Competitive Studies</h4>
                 <br>
                 <p align="justify">All kind of competitive examination courses such as SSC, Railways, NET/SET etc. are available.</p>
@@ -99,7 +99,7 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="images/network.png" class="img-fluid">
+                <img src="static/images/network.png" class="img-fluid">
             </div>
         </div>
     </div>
@@ -111,15 +111,15 @@
         <h1 class="title text-center">Contact Details</h1>
         <div class="row offset-0">
             <div class="col-md-4 members">
-                <img src="images/swarnadeep.jpeg">
+                <img src="static/images/swarnadeep.jpeg">
                 <p class="user-details"><b>Swarnadeep Gupta</b><br>Accounts Head<br><b>Mobile: 7980522927</b></p>
             </div>
             <div class="col-md-4 members">
-                <img src="images/satayu.jpeg">
+                <img src="static/images/satayu.jpeg">
                 <p class="user-details"><b>Satayu Bhattacharyya</b><br>Marketing and Communication Head<br><b>Mobile: 7980208440</b></p>
             </div>
             <div class="col-md-4 members">
-                <img src="images/sanjoy.jpeg">
+                <img src="static/images/sanjoy.jpeg">
                 <p class="user-details"><b>Sanjoy Sen</b><br>Operation Head<br><b>Mobile: 8617223611</b></p>
             </div>
         </div>
@@ -132,21 +132,21 @@
     <div class="container text-center">
         <p>FIND US ON SOCIAL MEDIA</p>
         <div class="social-icons">
-            <a href="https://wa.me/917980208440"><img src="images/whatsapp-icon.png"></a>
-            <a href="https://www.facebook.com/thepioneerinstitute23"><img src="images/facebook-icon.png"></a>
+            <a href="https://wa.me/917980208440"><img src="static/images/whatsapp-icon.png"></a>
+            <a href="https://www.facebook.com/thepioneerinstitute23"><img src="static/images/facebook-icon.png"></a>
 <!--            <a href="#"><img src="images/instagram-icon.png"></a>-->
-            <a href="https://www.linkedin.com/in/amit-sinha-17041998"><img src="images/linkedin-icon.png"></a>
+            <a href="https://www.linkedin.com/in/amit-sinha-17041998"><img src="static/images/linkedin-icon.png"></a>
         </div>
     </div>
 </section>
 
 <!----------------------Footer Section------------------->
 <section id="footer">
-    <img src="images/wave2.png" class="footer-img">
+    <img src="static/images/wave2.png" class="footer-img">
     <div class="container">
         <div class="row">
             <div class="col-md-8 footer-box">
-                <p><i class="fa fa-map-marker"></i><a th:href="@{https://www.google.com/maps/place/THE+PIONEER+INSTITUTE/@22.8778617,88.387805,17z/data=!3m1!4b1!4m6!3m5!1s0x39f891594124856b:0x76eedc97b1a5aee!8m2!3d22.8778568!4d88.3903799!16s%2Fg%2F11ssv0slbt?entry=ttu}">Find us in Google Map</a></p>
+                <p><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/place/THE+PIONEER+INSTITUTE/@22.8778617,88.387805,17z/data=!3m1!4b1!4m6!3m5!1s0x39f891594124856b:0x76eedc97b1a5aee!8m2!3d22.8778568!4d88.3903799!16s%2Fg%2F11ssv0slbt?entry=ttu">Find us in Google Map</a></p>
                 <p><i class="fa fa-envelope-o"></i>thepioneerinstitue23@gmail.com</p>
             </div>
 <!--            <div class="col-md-4 footer-box">-->
@@ -155,12 +155,12 @@
 <!--            </div>-->
         </div>
         <hr>
-        <p class="copyright">&copy; Website created and managed by Amit :)</p>
+        <p class="copyright">&copy; 2023 Pioneer Institute. All rights reserved.</p>
     </div>
 </section>
 
 <!----------------Smooth Scroll------------->
-<script src="/js/smooth-scroll.js"></script>
+<script src="static/js/smooth-scroll.js"></script>
 <script>
       var scroll = new SmoothScroll('a[href*="#"]');
 </script>

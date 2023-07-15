@@ -3,8 +3,8 @@
 <head>
     <title>Team Members</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/pioneer.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="../static/css/contact.css" th:href="@{/css/contact.css}">
+    <link rel="icon" href="../static/images/pioneer.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../static/css/contact.css">
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -16,12 +16,15 @@
 <!----------------------Navbar Section------------------->
 <section id="nav-bar">
     <nav class="navbar navbar-expand-sm navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="images/pioneer.png" class="logo"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../static/images/pioneer.png" class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="wbbse.html">WBBSE Courses</a>
                 </li>
@@ -42,56 +45,57 @@
 <!----------------------Team Member Section------------------->
 <br>
 <section>
-    <h2 align="center">Meet Our Team</h2>
+    <h2 align="center">Meet Our Technical and Management Team</h2>
     <br>
 
     <div class="team-container">
         <div class="team-member">
-            <div class="member-photo">
-                <img src="images/amit.jpeg" alt="amit">
-            </div>
-            <h2 class="member-name">Amit Sinha</h2>
-            <p class="member-description">Software Developer at TCS</p>
-            <a class="connect-button" href="https://www.linkedin.com/in/amit-sinha-17041998">Connect</a>
+          <div class="profile-image">
+            <img src="../static/images/amit.jpeg" alt="Amit">
+          </div>
+          <h2 class="member-name">Amit Sinha</h2>
+          <p class="member-description">Software Developer</p>
+          <a class="connect-button" href="#">Connect</a>
+        </div>
+    
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="../static/images/blank.jpeg" alt="Team Member 2">
+          </div>
+          <h2 class="member-name">Soumik Dey</h2>
+          <p class="member-description">Electrical Engineer at CESC</p>
+          <a class="connect-button" href="#">Connect</a>
+        </div>
+    
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="../static/images/blank.jpeg" alt="Team Member 3">
+          </div>
+          <h2 class="member-name">Team Member 3</h2>
+          <p class="member-description">Description of Team Member 3.</p>
+          <a class="connect-button" href="#">Connect</a>
         </div>
 
         <div class="team-member">
-            <div class="member-photo">
-                <img src="images/blank.jpeg" alt="soumik">
-            </div>
-            <h2 class="member-name">Soumik Dey</h2>
-            <p class="member-description">Electrical Engineer at CESC</p>
-            <a class="connect-button" href="https://www.linkedin.com/in/soumik-dey-4b208b15b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACZGxQYBNeLEZfj4HPrgniEDzXeY-LQJ0iQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3ByTc6urXOTeuGmHmzTMpZpw%3D%3D">Connect</a>
-        </div>
-
-        <div class="team-member">
-            <div class="member-photo">
-                <img src="images/blank.jpeg" alt="Team Member 3">
+            <div class="profile-image">
+              <img src="../static/images/blank.jpeg" alt="Team Member 3">
             </div>
             <h2 class="member-name">Team Member 3</h2>
             <p class="member-description">Description of Team Member 3.</p>
-            <a class="connect-button" href="https://example.com">Connect</a>
-        </div>
+            <a class="connect-button" href="#">Connect</a>
+          </div>
 
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="../static/images/blank.jpeg" alt="Team Member 3">
+            </div>
+            <h2 class="member-name">Team Member 3</h2>
+            <p class="member-description">Description of Team Member 3.</p>
+            <a class="connect-button" href="#">Connect</a>
+          </div>
+    
         <!-- Add more team members following the same structure -->
-        <div class="team-member">
-            <div class="member-photo">
-                <img src="images/blank.jpeg" alt="Team Member 4">
-            </div>
-            <h2 class="member-name">Team Member 4</h2>
-            <p class="member-description">Description of Team Member 4.</p>
-            <a class="connect-button" href="https://example.com">Connect</a>
-        </div>
-
-        <div class="team-member">
-            <div class="member-photo">
-                <img src="images/blank.jpeg" alt="Team Member 5">
-            </div>
-            <h2 class="member-name">Team Member 5</h2>
-            <p class="member-description">Description of Team Member 5.</p>
-            <a class="connect-button" href="https://example.com">Connect</a>
-        </div>
-    </div>
+      </div>
 </section>
 
 
@@ -110,7 +114,7 @@
         <!--                        </div>-->
         <!--        </div>-->
         <hr>
-        <p class="copyright">&copy; Website created and managed by Amit :)</p>
+        <p class="copyright">&copy; 2023 Pioneer Institute. All rights reserved.</p>
     </div>
 </section>
 </div>
