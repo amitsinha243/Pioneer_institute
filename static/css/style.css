@@ -84,10 +84,11 @@ navbar-brand img{
 }
 
 .service-img{
-    height: 100px
-	width: 80px;
-	margin-top: 20px;
-	border-radius: 10%;
+    width: 230px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
 }
 
 .services{
